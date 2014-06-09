@@ -1,0 +1,1 @@
+(function(){angular.module("app",["app.directives"])}).call(this);

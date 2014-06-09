@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>ngMagnify Example</title>
+
+	<link rel="stylesheet" href="/ngMagnify/css/style.css" />
+</head>
+<body>
+
+<h1>ngMagnify demo &amp; usage samples</h1>
+
+<div id="container">
+	<figure ng-magnify style="max-width: 375px">
+		<img src="//dummy-images.com/nature/dummy-750x500-Raindrops.jpg" class="small" />
+
+		<div class="large" ng-style="{
+			backgroundImage: 'url(//dummy-images.com/nature/dummy-750x500-Raindrops.jpg)'
+		}"></div>
+	</figure>
+
+	<br /><br />
+
+	<figure ng-magnify style="max-width: 900px">
+		<img src="//dummy-images.com/winter/dummy-1800x1800-Icicle.jpg" class="small" />
+
+		<div class="large" ng-style="{
+			backgroundImage: 'url(//dummy-images.com/winter/dummy-1800x1800-Icicle.jpg)'
+		}"></div>
+	</figure>
+
+	<br /><br />
+
+	<figure ng-magnify style="max-width: 900px">
+		<img src="http://dummy-images.com/food/dummy-1800x1800-Spicery.jpg" class="small" />
+
+		<div class="large" ng-style="{
+			backgroundImage: 'url(http://dummy-images.com/food/dummy-1800x1800-Spicery.jpg)'
+		}"></div>
+	</figure>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js"></script>
+<script src="/ngMagnify/js/app.js"></script>
+<script src="/ngMagnify/js/directives.js"></script>
+
+</body>
+</html>

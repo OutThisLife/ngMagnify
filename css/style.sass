@@ -1,0 +1,30 @@
+@import classes.sass
+
+body
+	font-family: monospace
+	line-height: 1.75
+	text-align: center
+	padding: 50px
+	background: #EEE
+
+[ng-magnify]
+	margin: auto
+
+	.small
+		display: block
+		max-width: 100%
+		height: auto
+		margin: auto
+		padding: 5px
+		border: 2px solid rgba(#000, .15)
+		background: #FFF
+
+	.large
+		cursor: crosshair
+		z-index: 250
+		display: none
+		position: absolute
+		@include sq(260px)
+		@include boxShadow(#{"0 0 0 8px rgba(255,255,255,.85), 0 0 7px 7px rgba(0,0,0,.25), inset 0 0 40px 2px rgba(0,0,0,.25)"})
+		@include borderRadius(100%)
+		background: transparent no-repeat
