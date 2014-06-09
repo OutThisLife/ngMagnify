@@ -13,7 +13,7 @@ Inspired by http://thecodeplayer.com/walkthrough/magnifying-glass-for-images-usi
 </figure>
 ```
 
-And.. that's it. The styles for the actual mnagnifying glass are very simple and can be found in css/style.sass.
+And.. that's it. The styles for the actual magnifying glass are very simple and can be found in css/style.sass.
 
 ```css
 .small
